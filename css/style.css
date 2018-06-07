@@ -7,3 +7,7 @@ body {
 .font-x-large {
     font-size: xx-large;
 }
+
+.jumbotron{
+    background: #798393;
+}
