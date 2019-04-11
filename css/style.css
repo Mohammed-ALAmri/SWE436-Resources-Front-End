@@ -1,13 +1,97 @@
-body {
+body{
     font-family: 'Quicksand', sans-serif;
-    background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NkzqDhfneildzktre/grunge-dark-background-4k-uhd_bhp1rbu___F0000.png") ;
+    /*background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NkzqDhfneildzktre/grunge-dark-background-4k-uhd_bhp1rbu___F0000.png") ;*/
+    background-image: url("http://getwallpapers.com/wallpaper/full/c/b/0/23460.jpg");
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f5f5f5;
 }
+
 .font-x-large {
     font-size: xx-large;
 }
 
-.jumbotron{
-    background: #798393;
+.navbar{
+    box-shadow: 2px 2px 0px 0px cyan;
 }
+
+.jumbotron{
+    background: #343a40;
+    padding: 30px;
+    box-shadow: 2px 2px 0px 0px cyan;
+}
+
+.col{
+    width: 100px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.cen {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.card{
+    width: 90%;
+    background: #343a40;
+    position: absolute;
+    height: 95%;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: black solid 1px;
+    box-shadow: 0px 2px 0px 0px cyan;
+}
+.card:hover{
+    background: cyan;
+    color: #0f0f0f;
+    transition: all 0.6s;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 0px 0px #343a40;
+}
+
+
+.df3h {
+    width: 95%;
+    background: #343a40;
+    position: absolute;
+    height: 95%;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: black solid 1px;
+    box-shadow: 0px 2px 0px 0px cyan;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.df3h:hover{
+    background: cyan;
+    color: #0f0f0f;
+    transition: all 0.6s;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 0px 0px #343a40;
+}
+
+.line{
+    display: block;
+    border-color: black;
+}
+
+.line1 {
+    display: block;
+    border-color: black;
+    width: 50%;
+}
+
+.footer{
+    background: #343a40;
+    box-shadow: 0px 0px 0px 2px cyan;
+    text-decoration-color: #f5f5f5;
+}
+
+
